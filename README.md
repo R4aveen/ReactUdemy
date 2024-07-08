@@ -1,4 +1,3 @@
-<<<<<<< HEAD
 # ReactUdemy
 para llevar un contro de mi aprendizaje asjsajas
 =======
