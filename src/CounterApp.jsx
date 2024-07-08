@@ -6,10 +6,15 @@ export const CounterApp = ({ value} ) =>{
     const [counter, setCounter] = useState(value)
     
     const handleAdd = () =>{
-
         // setCounter ( counter +1);
         setCounter( (c) => c + 1)
         }
+    const handleSubstract = () => {
+        setCounter( (r) => r - 1);
+    }
+    const handleReset = () => {
+        setCounter( value );
+    }
 
     return (
         <>
@@ -18,6 +23,12 @@ export const CounterApp = ({ value} ) =>{
 
             <button onClick={handleAdd }>
                 +1
+            </button>
+            <button onClick={handleSubstract }>
+                -1
+            </button>
+            <button onClick={handleReset }>
+                Restablecer
             </button>
             
         </>
