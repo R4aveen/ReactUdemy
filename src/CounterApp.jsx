@@ -2,7 +2,7 @@ import { useState } from 'react';
 import PropTypes from 'prop-types';
 
 export const CounterApp = ({ value} ) =>{
-
+    console.log('render');
     const [counter, setCounter] = useState(value)
     
     const handleAdd = () =>{
@@ -11,7 +11,7 @@ export const CounterApp = ({ value} ) =>{
         }
     const handleSubstract = () => {
         if (counter > 0) {
-            setCounter((r) => r - 1);
+            setCounter( (r) => r - 1);
         }else{
             console.error(
                 "No se puede decrementar el valor de counter"
