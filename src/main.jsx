@@ -9,6 +9,6 @@ import './style.css';
 ReactDOM.createRoot( document.getElementById('root')).render(
     <React.StrictMode>
         {/* <FirtsApp/> */}
-        <CounterApp value ={20}/>
+        <CounterApp value ={1}/>
     </React.StrictMode>
 )

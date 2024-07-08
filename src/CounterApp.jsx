@@ -7,10 +7,16 @@ export const CounterApp = ({ value} ) =>{
     
     const handleAdd = () =>{
         // setCounter ( counter +1);
-        setCounter( (c) => c + 1)
+        setCounter( (s) => s + 1)
         }
     const handleSubstract = () => {
-        setCounter( (r) => r - 1);
+        if (counter > 0) {
+            setCounter((r) => r - 1);
+        }else{
+            console.error(
+                "No se puede decrementar el valor de counter"
+            );
+        }
     }
     const handleReset = () => {
         setCounter( value );
