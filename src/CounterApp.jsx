@@ -19,6 +19,7 @@ export const CounterApp = ({ value} ) =>{
             <button onClick={handleAdd }>
                 +1
             </button>
+            
         </>
     )
 }
