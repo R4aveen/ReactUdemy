@@ -48,16 +48,16 @@ nav ul li a:hover {
 
 /* Estilo para el botón de búsqueda */
 .btn-images {
-    background-color: #007bff; /* Color de fondo del botón */
-    color: white; /* Color del texto del botón */
-    border: none; /* Quita el borde del botón */
-    border-radius: 5px; /* Bordes redondeados del botón */
-    padding: 10px 20px; /* Espaciado interno del botón */
-    cursor: pointer; /* Cambia el cursor al pasar sobre el botón */
-    font-size: 16px; /* Tamaño del texto del botón */
-    transition: background-color 0.3s ease; /* Transición suave para el color de fondo */
+    background-color: #007bff; 
+    color: white; 
+    border: none; 
+    border-radius: 5px;
+    padding: 10px 20px; 
+    cursor: pointer; 
+    font-size: 16px; 
+    transition: background-color 0.3s ease; 
 }
 
 .btn-images:hover {
-    background-color: #0056b3; /* Color de fondo del botón en hover */
+    background-color: #0056b3; 
 }
