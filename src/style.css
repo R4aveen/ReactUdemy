@@ -46,29 +46,6 @@ nav ul li a:hover {
     color: #ddd;
 }
 
-/* Estilos generales para el contenedor de imágenes */
-.image-container {
-    display: flex;
-    flex-wrap: wrap;
-    gap: 10px; /* Espacio entre imágenes */
-    justify-content: center; /* Centra las imágenes */
-}
-
-/* Estilo para cada imagen */
-.image-container img {
-    border-radius: 8px; /* Bordes redondeados para un efecto más suave */
-    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.2); /* Sombra para dar profundidad */
-    transition: transform 0.3s ease, box-shadow 0.3s ease; /* Transición suave para el efecto hover */
-    width: 200px; /* Ancho fijo para las imágenes */
-    height: auto; /* Mantiene la proporción de la imagen */
-}
-
-/* Efecto hover para las imágenes */
-.image-container img:hover {
-    transform: scale(1.05); /* Aumenta ligeramente el tamaño de la imagen */
-    box-shadow: 0 6px 12px rgba(0, 0, 0, 0.3); /* Sombra más intensa en hover */
-}
-
 /* Estilo para el botón de búsqueda */
 .btn-images {
     background-color: #007bff; /* Color de fondo del botón */
