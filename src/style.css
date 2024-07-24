@@ -61,3 +61,69 @@ nav ul li a:hover {
 .btn-images:hover {
     background-color: #0056b3; 
 }
+
+/* Estilos generales para el contenedor de imágenes */
+.image-container {
+    display: flex;
+    flex-wrap: wrap;
+    gap: 10px; /* Espacio entre imágenes */
+    justify-content: center; /* Centra las imágenes */
+}
+
+/* Estilo para cada imagen en miniatura */
+.thumbnail {
+    border-radius: 8px; /* Bordes redondeados */
+    cursor: pointer; /* Cursor tipo mano al pasar sobre la imagen */
+    width: 150px; /* Ancho fijo para las miniaturas */
+    height: auto; /* Mantiene la proporción de la imagen */
+}
+
+/* Estilos del modal */
+.modal {
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    background: white;
+    border-radius: 8px;
+    padding: 20px;
+    max-width: 90%;
+    max-height: 80%;
+    overflow: auto;
+}
+
+.overlay {
+    position: fixed;
+    top: 0;
+    left: 0;
+    right: 0;
+    bottom: 0;
+    background: rgba(0, 0, 0, 0.5);
+}
+
+.modal-image {
+    width: 100%;
+    height: auto;
+    border-radius: 8px;
+}
+
+.modal-close {
+    position: absolute;
+    top: 10px;
+    right: 10px;
+    background: #007bff;
+    color: white;
+    border: none;
+    border-radius: 50%;
+    width: 30px;
+    height: 30px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    cursor: pointer;
+    font-size: 16px;
+}
+
+.modal-close:hover {
+    background: #0056b3;
+}
