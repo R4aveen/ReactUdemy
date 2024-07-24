@@ -13,3 +13,74 @@ button{
     font-size: 1.3rem;
     margin-right: 5px;
 }
+
+/* style.css */
+
+nav {
+    background-color: #333;
+    padding: 10px;
+}
+
+nav ul {
+    list-style-type: none;
+    padding: 0;
+    margin: 0;
+    display: flex;
+    justify-content: space-around;
+}
+
+nav ul li {
+    margin: 0;
+}
+
+nav ul li a {
+    text-decoration: none;
+    color: white;
+    padding: 10px 15px;
+    font-size: 16px;
+    transition: background-color 0.3s, color 0.3s;
+}
+
+nav ul li a:hover {
+    background-color: #555;
+    color: #ddd;
+}
+
+/* Estilos generales para el contenedor de imágenes */
+.image-container {
+    display: flex;
+    flex-wrap: wrap;
+    gap: 10px; /* Espacio entre imágenes */
+    justify-content: center; /* Centra las imágenes */
+}
+
+/* Estilo para cada imagen */
+.image-container img {
+    border-radius: 8px; /* Bordes redondeados para un efecto más suave */
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.2); /* Sombra para dar profundidad */
+    transition: transform 0.3s ease, box-shadow 0.3s ease; /* Transición suave para el efecto hover */
+    width: 200px; /* Ancho fijo para las imágenes */
+    height: auto; /* Mantiene la proporción de la imagen */
+}
+
+/* Efecto hover para las imágenes */
+.image-container img:hover {
+    transform: scale(1.05); /* Aumenta ligeramente el tamaño de la imagen */
+    box-shadow: 0 6px 12px rgba(0, 0, 0, 0.3); /* Sombra más intensa en hover */
+}
+
+/* Estilo para el botón de búsqueda */
+.btn-images {
+    background-color: #007bff; /* Color de fondo del botón */
+    color: white; /* Color del texto del botón */
+    border: none; /* Quita el borde del botón */
+    border-radius: 5px; /* Bordes redondeados del botón */
+    padding: 10px 20px; /* Espaciado interno del botón */
+    cursor: pointer; /* Cambia el cursor al pasar sobre el botón */
+    font-size: 16px; /* Tamaño del texto del botón */
+    transition: background-color 0.3s ease; /* Transición suave para el color de fondo */
+}
+
+.btn-images:hover {
+    background-color: #0056b3; /* Color de fondo del botón en hover */
+}
